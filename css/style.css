@@ -6,7 +6,7 @@ body{
     align-items: center;
     height: 100vh;
     background: #694E4E;
-    font-family:consolas;
+    font-family:  'Times New Roman', Times, serif; 
 }
 .btn-neon{
     position: relative;
@@ -15,7 +15,7 @@ body{
     color: #F3C5C5;
     letter-spacing: 4px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 30px;
     overflow: hidden;
     transition: 0.2s;
 }
