@@ -1,36 +1,133 @@
+
 * {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
     justify-content: center;
-    align-items: center;
-      font-family:  'Times New Roman', Times, serif; 
+    align-items: center; }
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:rgb(0, 0, 0);
+	background: #694E4E;
+}
+hr {
+    color: rgb(167, 165, 165);
+    width: 400px;
+    position: center;
 }
 
-body{
+.container {
+
     margin: 0;
     padding: 0;
     display: flex;
-    height: 100vh;
-    background: #694E4E;
-  
-}
-
-form {
-    background-color: #F3C5C5;
-    margin: 20px;
-    width: 25%px;
-    padding: 20px;
-    box-sizing: border-box;
     justify-content: center;
-    border: 1px solid black;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
+
+
+#formulario {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+    content: center;
+}
+
+#formulario h3 {
+	color: rgb(0, 0, 0);
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+    font-family: cursive;
+    text-shadow: rgb(146, 146, 146) 0.1em 0.1em 0.2em
+}
+
+#formulario h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+    text-align: center;
+    font-family: cursive;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+legend {
+   font: center;
+   justify-content: center;
+   align-items: center;
+   font-size:15px;
+   text-align: center;
+   font-family: cursive;
+}
+
 label {
-    font-size: 12px;
+    content: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+} 
+
+input[type='radio']:after {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    position: center;
+    background-color: #d1d3d1;
+    content: center;
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid white;
 }
 
-input {
-
+input[type='radio']:checked:after {
+    width: 11px;
+    height: 11px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #000000;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
 }
 
-select {
-  
+select, option{
+position: center;
+border: 1px solid rgb(119, 119, 119);
+  width: 140px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:rgb(0, 0, 0);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+.linea1  {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
 }
