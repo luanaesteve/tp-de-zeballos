@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 * {
 	margin:0;
 	padding:0;
@@ -15,7 +15,7 @@ body {
 	background: #694E4E;
 }
 hr {
-    color: rgb(167, 165, 165);
+    color: rgb(54, 50, 50);
     width: 400px;
     position: center;
 }
@@ -33,10 +33,12 @@ hr {
 
 
 #formulario {
-	background:#F9F9F9;
+	background:#b8b8b8;
 	padding:25px;
 	margin:50px 0;
     content: center;
+    border: #000000;
+    border-radius: 15px;
 }
 
 #formulario h3 {
@@ -44,8 +46,7 @@ hr {
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
-    font-family: cursive;
-    text-shadow: rgb(146, 146, 146) 0.1em 0.1em 0.2em
+    font-family: 'Kaushan Script';
 }
 
 #formulario h4 {
@@ -57,7 +58,7 @@ hr {
 }
 
 fieldset {
-	border: medium none !important;
+	border: medium none;
 	margin: 0 0 10px;
 	min-width: 100%;
 	padding: 0;
@@ -123,11 +124,4 @@ button[type="submit"] {
 	margin:0 0 5px;
 	padding:10px;
 	font-size:15px;
-}
-.linea1  {
-    border-top: 1px solid black;
-    height: 2px;
-    max-width: 200px;
-    padding: 0;
-    margin: 20px auto 0 auto;
 }

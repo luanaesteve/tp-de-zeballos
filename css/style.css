@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -6,13 +7,13 @@ body{
     align-items: center;
     height: 100vh;
     background: #694E4E;
-    font-family:  'Times New Roman', Times, serif; 
+    font-family:   'Kaushan Script', cursive; 
 }
 .btn-neon{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: #F3C5C5;
+    color: #ddb2b2;
     letter-spacing: 4px;
     text-decoration: none;
     font-size: 30px;
@@ -20,8 +21,8 @@ body{
     transition: 0.2s;
 }
 .btn-neon:hover{
-    background: #BB6464;
-    box-shadow: 0 0 10px #BB6464, 0 0 40px #BB6464, 0 0 80px #BB6464;
+    background: #6d3737;
+    box-shadow: 0 0 10px #6d3737, 0 0 40px #6d3737, 0 0 80px #6d3737;
     transition-delay: 1s;
  }
 .btn-neon span{
@@ -33,7 +34,7 @@ body{
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent,#BB6464);
+    background: linear-gradient(90deg, transparent,#6d3737);
  }
  .btn-neon:hover #span1{
     left: 100%;
@@ -56,7 +57,7 @@ body{
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#BB6464);
+    background: linear-gradient(180deg,transparent,#6d3737);
 }
 .btn-neon:hover #span2{
     top: 100%;
