@@ -116,12 +116,15 @@ border: 1px solid rgb(119, 119, 119);
 }
 
 button[type="submit"] {
-	cursor:pointer;
-	width:100%;
-	border:none;
-	background:rgb(0, 0, 0);
-	color:#FFF;
-	margin:0 0 5px;
-	padding:10px;
-	font-size:15px;
-}
+    display: inline-block;
+  padding: 0.85em 1.5em;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #6b6baa;
+  border: none;
+  border-radius: 15px ;
+  width: 70%;
+
+  }
