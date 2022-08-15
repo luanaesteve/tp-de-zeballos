@@ -9,16 +9,16 @@
   </head>
   <body>
       <div class="container">  
-          <form id="formulario" action="" method="post">
+          <form id="formulario" method="post" action="form.php">
             <h3>Impuesto a la ganancia</h3>
-            <h4>Completa el formulario!</h4>
+            <h4>Categoria </h4>
             <fieldset>
               <legend>¿Tiene hijos/as?:</legend>
               <div>
-                <input type="radio" id="Si" name="Hijos" value="Si"
+                <input type="radio" id="Si" name="hijos" value="Si"
                        checked>
                 <label for="Si">Si</label>
-                <input type="radio" id="No" name="Hijos" value="No">
+                <input type="radio" id="No" name="hijos" value="No">
                 <label for="No">No</label>
               </div>
              <hr>
@@ -56,13 +56,6 @@
                 <label for="No">No</label>
               </div>
   <hr>
-          <legend>Categorias:</legend>
-              <select class="select">
-              <option value="Ganancia de primera categoría">Ganancia de primera categoría</option>
-              <option value="Ganancia de segunda categoría">Ganancia de segunda categoría</option>
-              <option value="Ganancia de tercera categoría">Ganancia de tercera categoría</option>
-              <option value="Ganancia de cuarta categoría">Ganancia de cuarta categoría</option>
-    </select>
     </fieldset>
            
               <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Siguiente</button>
